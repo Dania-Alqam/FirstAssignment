@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FirstAssignment</string>
+    <string name="str">Choose a nutritionist</string>
+    <string name="str2">-أخصائية تغذية في المراكز الطبية - أخصائية تغذية في مراكز تجميل وصحة - أخصائية تغذية في النوادي الرياضية - أخصائية تغذية مُحاضِرة لطلاب المدارس</string>
+
+    <string-array name="gender">
+        <item>
+            Female
+        </item>
+        <item>
+            Male
+        </item>
+    </string-array>
+</resources>

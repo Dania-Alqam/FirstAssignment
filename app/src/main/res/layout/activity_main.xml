@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@drawable/fitness"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="Welcome to My App!"
+        android:textColor="#B876C3"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.066"
+        style="@style/txtstyle"/>
+
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="202dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Enter Your Name !"
+        android:textSize="24dp" />
+
+    <EditText
+
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        style="@style/txtstyle"/>
+
+
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="202dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Enter Your Email"
+        android:textSize="24dp" />
+
+    <EditText
+
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:minHeight="48dp"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"
+        style="@style/txtstyle"/>
+
+
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="365dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Enter Your password"
+        android:textSize="24dp" />
+
+
+    <EditText
+        android:id="@+id/editPassword"
+        style="@style/txtstyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+
+        android:inputType="textPassword" />
+
+    <TextView
+        style="@style/txtstyle"
+        android:layout_width="337dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:text="Choose Your Gender"
+        android:textSize="24dp" />
+
+    <Spinner
+        android:id="@+id/genderSpinner"
+        style="@style/txtstyle"
+        android:layout_width="138dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:background="@color/purple_200"
+        android:backgroundTint="@color/purple_200"
+        android:minHeight="48dp"
+        />
+
+    <Button
+        android:id="@+id/nextButton"
+        style="@style/txtstyle"
+        android:layout_width="125dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="8dp"
+        android:text="Next"
+        android:onClick="next"/>
+
+
+</LinearLayout>

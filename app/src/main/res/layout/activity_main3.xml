@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt1"
+            style="@style/txtstyle"
+            android:layout_width="248dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="40dp"
+            android:text="@string/str"
+            tools:layout_editor_absoluteX="159dp"
+            tools:layout_editor_absoluteY="84dp" />
+
+        <Spinner
+            android:id="@+id/nutritionistSpinner"
+            style="@style/spinnerStyle"
+            android:layout_width="198dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp" />
+
+        <TextView
+            android:id="@+id/txt2"
+            style="@style/txtstyle"
+            android:layout_width="254dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:text="Choose Gym" />
+
+        <Spinner
+            android:id="@+id/GymSpinner"
+            style="@style/spinnerStyle"
+            android:layout_width="198dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginBottom="40dp"
+            android:background="#C2A9ED"
+            android:text="next"
+            android:onClick="next3"/>
+    </LinearLayout>
+</ScrollView>
